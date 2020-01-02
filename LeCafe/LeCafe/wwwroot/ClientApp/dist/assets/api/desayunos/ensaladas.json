@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 53,
+		"nombre": "Santa Fe",
+		"precio": 21
+	},
+	{
+		"idProducto": 54,
+		"nombre": "Aguacate y pepitoria",
+		"precio": 25
+	},
+	{
+		"idProducto": 55,
+		"nombre": "Oriental de pollo Mandarin",
+		"precio": 11
+	},
+	{
+		"idProducto": 56,
+		"nombre": "Griega",
+		"precio": 23
+	},
+	{
+		"idProducto": 57,
+		"nombre": "Italianisima",
+		"precio": 12
+	}	
+]

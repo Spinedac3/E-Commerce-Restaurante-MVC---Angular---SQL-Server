@@ -1,0 +1,38 @@
+[
+	{
+		"idProducto": 6,
+		"nombre": "Latte",
+		"precio": 12.85
+	},
+	{
+		"idProducto": 7,
+		"nombre": "Cappuccino",
+		"precio": 13.84
+	},
+	{
+		"idProducto": 8,
+		"nombre": "Mocha",
+		"precio": 16.94
+	},
+	{
+		"idProducto": 9,
+		"nombre": "Expreso",
+		"precio": 11.11
+	},
+	{
+		"idProducto": 10,
+		"nombre": "Leche",
+		"precio": 19.12
+	},
+	{
+		"idProducto": 11,
+		"nombre": "Cocoa",
+		"precio": 19.12
+	},
+	{
+		"idProducto": 12,
+		"nombre": "De la casa",
+		"precio": 19.12
+	}
+	
+]

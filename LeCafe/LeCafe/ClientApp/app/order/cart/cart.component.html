@@ -1,0 +1,26 @@
+<div class="card card-body bg-light">
+        <h3 class="text-center">Resumen de Orden </h3>
+        <div>Numero de Productos: {{ productService.order.items.length }} </div>
+        <div>Subtotal: {{ productService.order.getSubtotal | currency:" Q" }}</div>
+        <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <td>Product</td>
+                        <td>#</td>
+                        <td>$</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                      <tr *ngFor="let o of productService.order.items">
+                            <td>{{ o.producto.nombre }}</td>
+                            <td>{{ o.cantidad}}</td>
+                            <td>{{ o.producto.precio | currency:" Q":true }}</td>
+                            <td>{{ (o.producto.precio * o.cantidad ) | currency:" Q":true }}</td>
+                        </tr>
+                </tbody>
+        </table>
+        
+        <button class="btn btn-success" *ngIf="productService.order.items.length > 0" (click)="onCheckout()">Realizar Pago</button>
+    </div>
+    

@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="row">
+        <div *ngIf="errorMessage" class="alert alert-warning">{{ errorMessage }}</div>
+        <h3>Confirmar Orden</h3>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let o of productService.order.items">
+                    <td>{{o.producto.nombre}}</td>
+                    <td>{{ o.cantidad }}</td>
+                    <td>{{ o.producto.precio |currency:' Q'}}</td>
+                    <td>{{ (o.producto.precio * o.cantidad)|currency:' Q' }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 form-group">
+            <label> <strong>Datos de Factura</strong> </label><br>
+            <label>Nombres</label>
+            <input type="text" class="form-control" [(ngModel)]="nombre" />
+            <label>Apellidos</label>
+            <input type="text" class="form-control" [(ngModel)]="apellido" />
+            <div *ngIf="selectedOption == 'Tarjeta'">
+                <label>Id Tarjeta</label>
+                <input type="number" class="form-control" [(ngModel)]="idTarjeta" />
+                <label>Nombre Tarjeta</label>
+                <input type="text" class="form-control" [(ngModel)]="nombreTarjeta" />
+                
+            </div>
+
+        </div>
+        <div class="nit col-md-4">
+            <br>
+            <label>NIT</label>
+            <input type="text" class="form-control" [(ngModel)]="nit" />
+            <label>Tipo de Pago</label> <br />
+            <p-dropdown [options]="options" [(ngModel)]="selectedOption" editable="true" placeholder="Seleccione Metodo"></p-dropdown> <br />
+               <div *ngIf="selectedOption == 'Tarjeta'">
+                   <label>Numero Tarjeta</label>
+                   <input type="number" class="form-control" [(ngModel)]="numeroTarjeta" />
+                   <label> {{numeroTarjeta}}</label>
+                   <label>Fecha Vencimiento</label>
+                   <input type="date" class="form-control" [(ngModel)]="fechaVencimiento" />
+                   <label>CCV</label>
+                   <input type="number" class="form-control" [(ngModel)]="ccv" />
+               </div>
+        </div>
+            <div class="col-md-4 text-right">
+                    <table class="table table-condensed">
+                      <tr>
+                        <td class="text-right">Subtotal</td>
+                        <td class="text-right">{{ productService.order.getSubtotal|currency:' Q' }}</td>
+                      </tr>
+                      <tr>
+                        <td class="text-right">Total:</td>
+                        <td class="text-right">{{ productService.order.getSubtotal|currency:' Q' }}</td>
+                      </tr>
+                    </table>
+                    <button class="btn btn-success" (click)="Confirmar()">Confirmar Pago</button>
+                    <a routerLink="/" class="btn btn-info">Cancelar</a>
+            </div>
+    </div>
+</div>

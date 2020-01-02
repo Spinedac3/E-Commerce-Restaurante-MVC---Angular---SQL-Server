@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 48,
+		"nombre": "Chipotle Burguer",
+		"precio": 21
+	},
+	{
+		"idProducto": 49,
+		"nombre": "Chivito uruguayo",
+		"precio": 25
+	},
+	{
+		"idProducto": 50,
+		"nombre": "Cheeseburguer",
+		"precio": 11
+	},
+	{
+		"idProducto": 51,
+		"nombre": "Classic Burger",
+		"precio": 23
+	},
+	{
+		"idProducto": 52,
+		"nombre": "Swiss Burger",
+		"precio": 12
+	}	
+]

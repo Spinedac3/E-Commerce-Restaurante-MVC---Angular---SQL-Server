@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 43,
+		"nombre": "Pasta Florentina",
+		"precio": 21
+	},
+	{
+		"idProducto": 44,
+		"nombre": "Pasta pollo y loroco",
+		"precio": 25
+	},
+	{
+		"idProducto": 45,
+		"nombre": "Ravioles de Mozzarella",
+		"precio": 11
+	},
+	{
+		"idProducto": 46,
+		"nombre": "Lasagna de la casa",
+		"precio": 23
+	},
+	{
+		"idProducto": 47,
+		"nombre": "Pasta Diavola",
+		"precio": 12
+	}	
+]

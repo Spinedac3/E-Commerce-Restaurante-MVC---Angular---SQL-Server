@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 1,
+		"nombre": "Avena pequeña con frutas",
+		"precio": 12
+	},
+	{
+		"idProducto": 2,
+		"nombre": "Avena del monasterio",
+		"precio": 13
+	},
+	{
+		"idProducto": 3,
+		"nombre": "Yogurt con granola y frutas",
+		"precio": 16
+	},
+	{
+		"idProducto": 4,
+		"nombre": "Coctel de frutas",
+		"precio": 11
+	},
+	{
+		"idProducto": 5,
+		"nombre": "Avena con frutas",
+		"precio": 19
+	}
+]

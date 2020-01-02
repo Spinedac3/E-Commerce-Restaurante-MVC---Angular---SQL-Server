@@ -1,0 +1,10 @@
+{
+  "ConnectionStrings": {
+    "ConnectionString": "server=NDTICGSERRANO;Database=RestauranteDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Tokens": {
+    "key": "asidnoiasnoidnoaisno",
+    "Issuer": "http://localhost:8080",
+    "Audience": "users"
+  }
+}

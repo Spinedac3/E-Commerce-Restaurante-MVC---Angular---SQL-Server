@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 18,
+		"nombre": "Robert Mondavi Twin Oaks",
+		"precio": 21
+	},
+	{
+		"idProducto": 19,
+		"nombre": "El Cisco",
+		"precio": 25
+	},
+	{
+		"idProducto": 20,
+		"nombre": "Valviejo",
+		"precio": 11
+	},
+	{
+		"idProducto": 21,
+		"nombre": "Montes Twins",
+		"precio": 23
+	},
+	{
+		"idProducto": 22,
+		"nombre": "Casillero del Diablo",
+		"precio": 12
+	}	
+]

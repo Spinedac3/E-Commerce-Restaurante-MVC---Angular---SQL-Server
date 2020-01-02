@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 38,
+		"nombre": "Croissants queso y jamon",
+		"precio": 21
+	},
+	{
+		"idProducto": 39,
+		"nombre": "Chipotle breakfast",
+		"precio": 25
+	},
+	{
+		"idProducto": 40,
+		"nombre": "Breakfast chapata",
+		"precio": 11
+	},
+	{
+		"idProducto": 41,
+		"nombre": "Desayuno universitario",
+		"precio": 23
+	},
+	{
+		"idProducto": 42,
+		"nombre": "Molletes mexicanos",
+		"precio": 12
+	}	
+]

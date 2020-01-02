@@ -1,0 +1,33 @@
+<br>
+<div class="container">
+        <div class="row">
+                <div class="card card-body bg-light col-md-8">
+                        <table class='table'>
+                                <thead>
+                                <tr>
+                                <th> Producto </th>
+                                <th> Precio </th>
+                                <th> Cantidad</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr *ngFor='let vino of vinos'>
+                                        <td>{{vino.nombre}}</td>
+                                        <td>{{vino.precio | currency: "Q "}}</td>
+                                        <td><button class="btn btn-info"  (click)="addProduct(vino)"> <i class="fa fa-plus" ></i> Añadir</button></td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                        <div class="form-group row">
+                                                <div class="col-6 ">
+                                                        <button class="btn btn-outline-secondary" style='width:120px' [routerLink]="['/bebidas']" > <i class='fa fa-chevron-left'></i> Regresar </button>
+                                                </div>
+                                        </div>
+                                </tfoot>
+                                </table>
+                </div>
+                <div class="col-md-4">
+                        <app-cart></app-cart>
+                </div>
+        </div>
+</div>

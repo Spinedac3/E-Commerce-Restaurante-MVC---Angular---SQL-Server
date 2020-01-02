@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 13,
+		"nombre": "Agua pura",
+		"precio": 3
+	},
+	{
+		"idProducto": 14,
+		"nombre": "Te Frio",
+		"precio": 13
+	},
+	{
+		"idProducto": 15,
+		"nombre": "Licuados fruta Estacion",
+		"precio": 16
+	},
+	{
+		"idProducto": 16,
+		"nombre": "Jugo de Naranja",
+		"precio": 3
+	},
+	{
+		"idProducto": 17,
+		"nombre": "Jugo de Mandarina",
+		"precio": 14
+	}	
+]

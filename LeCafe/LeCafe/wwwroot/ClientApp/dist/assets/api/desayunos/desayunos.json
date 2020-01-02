@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 28,
+		"nombre": "Desayuno Salvadoñero",
+		"precio": 21
+	},
+	{
+		"idProducto": 29,
+		"nombre": "Desayuno las Gringas",
+		"precio": 25
+	},
+	{
+		"idProducto": 30,
+		"nombre": "Chilaquilas Mexicanas",
+		"precio": 11
+	},
+	{
+		"idProducto": 31,
+		"nombre": "Huevos con Loroco y Queso",
+		"precio": 23
+	},
+	{
+		"idProducto": 32,
+		"nombre": "Desayuno Tipico",
+		"precio": 12
+	}	
+]

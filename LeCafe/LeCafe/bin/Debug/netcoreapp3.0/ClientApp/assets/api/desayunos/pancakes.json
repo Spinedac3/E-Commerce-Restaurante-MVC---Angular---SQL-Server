@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 33,
+		"nombre": "Pancakes con nutella y banano ",
+		"precio": 21
+	},
+	{
+		"idProducto": 34,
+		"nombre": "Pancakes con miel maple",
+		"precio": 25
+	},
+	{
+		"idProducto": 35,
+		"nombre": "Pancakes con crema batida",
+		"precio": 11
+	},
+	{
+		"idProducto": 36,
+		"nombre": "Tostadas a la francesa",
+		"precio": 23
+	},
+	{
+		"idProducto": 37,
+		"nombre": "Pancakes Strawberry",
+		"precio": 12
+	}	
+]

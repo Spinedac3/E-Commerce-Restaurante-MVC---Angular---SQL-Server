@@ -1,0 +1,27 @@
+[
+	{
+		"idProducto": 23,
+		"nombre": "Monte Carlo",
+		"precio": 21
+	},
+	{
+		"idProducto": 24,
+		"nombre": "Dorada Draft",
+		"precio": 25
+	},
+	{
+		"idProducto": 25,
+		"nombre": "Gallo",
+		"precio": 11
+	},
+	{
+		"idProducto": 26,
+		"nombre": "Corona",
+		"precio": 23
+	},
+	{
+		"idProducto": 27,
+		"nombre": "Michelada",
+		"precio": 12
+	}	
+]
